@@ -150,6 +150,36 @@ h2 {
 	display: block;
 	clear: both;
 }
+
+.main {
+	width: 700px;
+	margin: 0 10px;
+	float: left;
+}
+
+.sidebar {
+	width: 200px;
+	margin: 0 10px 0 30px;
+	float: right;
+	font-family: 'Bitter', serif;
+}
+
+.sidebar h2 {
+	margin-bottom: 10px;
+}
+
+.sidebar ul {
+	font-size: 16px;
+	margin-left: 20px;
+}
+
+.sidebar ul a {
+	color: #333333;
+}
+
+a img:hover {
+	opacity: 0.8;
+}
 /* common css*/
 
 /* index.html */
@@ -231,3 +261,13 @@ h2 {
 	border: 1px solid #cccccc;
 }
 /* about.html */
+
+/* portfolio.html */
+#portfolio {
+	background-image: url(../images/bg-portfolio.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+	background-size: 100% auto;
+}
+/* portfolio.html */
